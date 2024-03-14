@@ -1,5 +1,22 @@
 
-Welcome to my default Data Project Repo.
+This project is focused in an ETL using Duckdb, CSV, Json, Parquet, PostgresSQL, Docker and Render.
+
+[TODO]:
+- [ ] Build project basic structure
+- [ ] Create the first Deploy in Render using Docker and GitHub
+- [ ] Create the PostgresSQL database
+- [ ] Create the ETL using DuckDb as Engine (from local files eg. CSV, Json, Parquet -> PostgresSQL)
+- [ ] Create the local database using DuckDB to store information about the runtime
+- [ ] Deploy the final solution
+
+
+Then we will have something like a homemade Airflow (local database, scheduler and webserver).
+
+
+
+-----------------------------------
+
+Welcome to my workshop_duckdb_etl project.
 
 To use this project structure you will need to follow the steps below.
 
@@ -35,8 +52,8 @@ For other OS, check it: [duckdb download page](https://duckdb.org/docs/installat
 ## Git Clone
 Open a terminal window (cmd, bash, or anything with git commands) and type:
 ```bash
-git clone https://github.com/alanceloth/myDefaultDataProject.git [NEW_PROJECT_NAME]
-cd [NEW_PROJECT_NAME]
+git clone https://github.com/alanceloth/workshop_duckdb_etl.git
+cd workshop_duckdb_etl
 git init
 ```
 
